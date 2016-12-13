@@ -8,24 +8,19 @@ class Hamming
     @a = string_one.split("")
     @b = string_two.split("")
 
-        # until @b[@b_index].nil?
           @a.each do |letter|
             if @a.length != @b.length
               raise ArgumentError,
               break
             end
-            binding pry
             if letter == @b[@b_index]
               @diff = @diff
-              # @b_index += 1
             elsif
               @diff += 1
-              # @b_index += 1
             end
             @b_index += 1
 
           end
-        # end
         puts @diff
         return @diff
       end
