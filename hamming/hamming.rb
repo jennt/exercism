@@ -9,10 +9,10 @@ class Hamming
     @b = string_two.split("")
 
           @a.each do |letter|
-            if @a.length != @b.length
-              raise ArgumentError,
-              break
-            end
+            # if @a.length != @b.length
+            #   raise ArgumentError,
+            #   break
+            # end
             if letter == @b[@b_index]
               @diff = @diff
             elsif
