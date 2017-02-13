@@ -1,1 +1,2 @@
-# exercism
+# Exercism
+http://exercism.io/

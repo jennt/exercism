@@ -1,5 +1,4 @@
 class Hamming
-  require 'pry'
 
   def self.compute(string_one, string_two)
 
@@ -11,9 +10,9 @@ class Hamming
           @a.each do |letter|
             # if @a.length != @b.length
             #   raise ArgumentError,
-            #   break
-            # end
-            if letter == @b[@b_index]
+              #break
+            #end
+          if letter == @b[@b_index]
               @diff = @diff
             elsif
               @diff += 1
